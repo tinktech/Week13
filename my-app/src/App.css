@@ -1,0 +1,52 @@
+.navBar {
+  width: 100vw;
+  background-color: rgb(164, 114, 184);
+  color: white;
+  font-size: 24px;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+nav ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding-right: .5em;
+  padding-left: .5em;
+  height: 100%;
+}
+
+nav ul li:hover {
+  color: black;
+  background-color: rgb(199, 139, 223);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
